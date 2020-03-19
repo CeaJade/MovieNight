@@ -107,7 +107,7 @@ namespace MovieNight
             }
             if(movie.Count == 0)
             {
-                Console.WriteLine("No result from your search '" + searchMov + "'\nTry something else.\n");
+                Console.WriteLine("\nNo result related to '" + searchMov + "'\nTry something else.\n");
             }
 
             Console.WriteLine("Press any key to continue...");
@@ -130,7 +130,7 @@ namespace MovieNight
             }
             if (actor.Count == 0)
             {
-                Console.WriteLine("No result from your search '" + searchAct + "'\nTry something else.\n");
+                Console.WriteLine("No result related to '" + searchAct + "'\nTry something else.\n");
             }
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
@@ -150,7 +150,7 @@ namespace MovieNight
             }
             if (movieByGenre.Count == 0)
             {
-                Console.WriteLine("No result from your search '" + movieByGenre + "'\nTry something else.\n");
+                Console.WriteLine("\nNo result related to '" + genre + "'\nTry something else.\n");
             }
 
             Console.WriteLine("\n\nPress any key to continue...");

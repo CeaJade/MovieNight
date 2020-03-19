@@ -46,6 +46,8 @@
     <Compile Include="Actor.cs" />
     <Compile Include="ActorManager.cs" />
     <Compile Include="DalManager.cs" />
+    <Compile Include="Genre.cs" />
+    <Compile Include="GenreManager.cs" />
     <Compile Include="Movie.cs" />
     <Compile Include="MovieManager.cs" />
     <Compile Include="Program.cs" />

@@ -18,5 +18,20 @@ namespace MovieNight
         {
             return DalManager.GetMoviesByGenre(search);
         }
+
+        public static Movie AddMovie(Movie movie)
+        {
+            return DalManager.InsertMovie(movie);
+        }
+
+        public static Movie UpdateMovie(Movie movie)
+        {
+            return DalManager.UpdateMovie(movie);
+        }
+
+        public static Movie DeleteMovie(Movie movie)
+        {
+            return DalManager.DeleteMovie(movie);
+        }
     }
 }

@@ -35,12 +35,17 @@ namespace MovieNight
         }
 
 
-        public Movie(int id, string title, int releaseYear, string description)
+        public Movie(string title, int releaseYear, string description)
         {
-            this.ID = id;
             this.Title = title;
             this.Description = description;
             this.ReleaseYear = releaseYear;
+        }
+
+        public Movie(int id, string title, int releaseYear, string description)
+            : this(title, releaseYear, description)
+        {
+            this.ID = id;
         }
 
         public Movie(string title)

@@ -39,7 +39,12 @@ namespace MovieNight
         public Actor(int id, string firstname, string lastname)
         : this(firstname, lastname)
         {
-            this.id = id;
+            this.ID = id;
+        }
+
+        public Actor (int id) 
+        {
+            this.ID = id;
         }
 
     }

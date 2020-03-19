@@ -12,5 +12,22 @@ namespace MovieNight
         {
             return DalManager.GetActors(search);
         }
+
+        public static Actor AddActor(Actor actor)
+        {
+            return DalManager.InsertActor(actor);
+        }
+
+        public static Actor UpdateActor(Actor actor)
+        {
+            return DalManager.UpdateActor(actor);
+        }
+
+        public static Actor DeleteActor(Actor actor)
+        {
+            return DalManager.DeleteActor(actor);
+        }
     }
+
+   
 }
